@@ -1,0 +1,343 @@
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #1a1f19;
+}
+
+a:link, a:visited { color: #cccc66; text-decoration: none} 
+a:active, a:hover { color: #cccc66; text-decoration: underline}
+
+#mobistore_container_wrapper {
+	background: url(mainbackground.gif) repeat-x;
+}
+
+#mobistore_container {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid #ffffff;
+}
+
+
+/*------------ Header --------------- */
+
+#mobistore_header {
+	height: 251px;
+	
+	background: #000000 url(banner2.gif) center no-repeat;
+	
+}
+
+#mobistore_site_title {
+	padding-top: 160px;
+	text-align: center;
+	font-size: 80px;
+	color:#a8a8b4;
+}
+
+#mobistore_site_title span{
+	font-weight: 200;
+	color:#cccc33;
+}
+
+#mobistore_site_slogan {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 1.8em;
+	color:#5a5c51;
+}
+/* ---------------------------------- */
+
+/*------------- Menu ------------------*/
+.mobistore_menu{
+	float: left;
+	width: 1000px;
+	height: 45px;
+	margin: 0px;
+	padding: 0px;
+	background: #434343 url(menubackground.gif) repeat-x;
+}
+
+.mobistore_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+.mobistore_menu li{
+	display: inline;
+}
+
+
+.mobistore_menu li a{
+	float: left;
+	padding: 10px 0px;
+	font: 1.2em arial;
+	text-align: center;
+	text-decoration: none;
+	color: #c6c6c6;
+	width: 160px;
+}
+
+.mobistore_menu li a:hover, .templatemo_menu li .current{
+	color: #ffffff;
+	background: url(menuhover.gif) center center no-repeat;
+}
+
+
+/* ----------------- end of menu----------------*/
+
+/*------------------explore more images------------------*/
+div.img {
+    margin: 60px;
+    padding: 15px;
+    border: 3px solid #cccc33;
+ float: left; 
+ text-align: center;
+}	
+
+
+div.img img {
+    display: inline;  
+  margin: 5px;   
+ border: 1px solid #cccc33;
+}
+
+
+div.img a:hover img {
+    border: 1px solid #000000;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 10px;
+}
+
+
+</style>
+/*--------------------------------------------------------*/
+
+
+/* ----------------- Content ----------------------- */
+
+
+
+#mobistore_content {
+	width: 800px;
+}
+
+#mobistore_top {
+	float: left;
+	padding: 20px;
+	width: 960px;
+	background: #383a2f;
+}
+
+#mobistore_bottom {
+	float: left;
+	width: 960px;
+	color: #999966;
+	padding: 0px;
+	background: #1e1f19;
+}
+
+#mobistore_bottom a{
+	line-height: 25px;
+	color:  #999966;
+}
+
+#mobistore_bottom .section {
+	float: left;
+	width: 205px;
+	padding: 20px 10px 0px 30px;
+	height: 200px;
+}
+
+#mobistore_bottom .section a{
+	padding-left: 25px;
+	color: #999966;
+	line-height: 25px;
+	text-decoration: none;
+	background: url(list_icon.gif) no-repeat center left;
+}
+#mobistore_bottom .section a:hover {
+	color: #cccc66;
+}
+
+#mobistore_bottom .middle {
+	float: left;
+	padding: 20px 40px;
+	width: 350px;	
+	height: 200px;
+	background: url(sectionleftborder.gif) left no-repeat;
+}
+
+#mobistore_bottom .middlerightborder {
+	float: left;
+	padding: 20px 0px;
+	width: 16px;
+	height: 200px;
+	background: url(sectionrightborder.gif) left no-repeat;
+}
+
+.text_area {
+	color: #999966;
+	margin: 10px;
+}
+
+.publish_date {
+	clear: both;
+	color: #999966;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.title {
+	height: 37px;
+	margin-left: 10px;
+	padding-top: 18px;
+	padding-left: 30px;
+	font-size: 1.8em;	
+	color:#ffff66;
+	background: url(cup.jpeg) left center no-repeat;
+}
+.subtitle{
+	padding-bottom: 10px;
+	font-size: 1.4em;
+	color: #cccc33;
+}
+
+.text_area img{
+	float: left;
+	margin: 0px 10px;
+}
+
+p.big {     font-size: 1.4em;
+	color: #cccc33;
+	 text-align: center;   }
+p.small{    font-size: 1.3em;
+	color: #999966;
+	 text-align: center;	}
+
+/*--------- End of Content -------------*/
+
+/* -------- Footer --------- */
+
+#mobistore_footer {
+	clear: left;
+	padding-top: 15px;
+	padding-right: 10px;
+	width: 985px;
+	height: 62px;
+	color: #999966;
+	line-height: 24px;
+	text-align:right;
+	background: #212121 url(footerbackground.gif) repeat-x;
+}
+#mobistore_footer a {
+	color: #999966;
+	text-decoration: none;
+}
+
+#mobistore_footer a:hover {
+	color: #cccc66;
+}
+
+/* --------- end of footer --------------*/
+
+/*---------table---------------*/
+.SpecsTable {
+	margin:0px;padding:0px;
+	width:100%;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;
+	
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+	
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+	
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+}
+.SpecsTable table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+.SpecsTable tr:last-child td:last-child {
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.SpecsTable table tr:first-child td:first-child {
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+}
+.SpecsTable table tr:first-child td:last-child {
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+}.SpecsTable tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+.SpecsTable td{
+	vertical-align:middle;
+	
+	background-color:#1e1f19;
+
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:9px;
+	font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#999966;
+}.SpecsTable tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.SpecsTable tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.SpecsTable tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.SpecsTable tr:first-child td{
+		background:-o-linear-gradient(bottom, #434343 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #434343), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #434343 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#434343", endColorstr="#000000");	background: -o-linear-gradient(top,#434343,000000);
+
+	background-color:#434343;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#a8a8b4;
+}
+
+.SpecsTable tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.SpecsTable tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+/*-----------end of table-----------*/

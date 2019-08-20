@@ -1,0 +1,102 @@
+<!DOCTYPE html >
+<head>
+
+<title>MobiStore</title>
+
+<link href="mobistore_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="mobistore_container_wrapper">
+<div id="mobistore_container">
+     <div id="mobistore_header">
+	<div id="mobistore_site_title">Mobi<span>Store</span></div>
+	<div id="mobistore_site_slogan">Ultimate Destination for mobile shopping!</div>
+    </div>
+
+	<div class="mobistore_menu">
+        <ul>
+			<li><a href="index.html"  class="current">Home</a></li>
+			<li><a href="latestmodels.html">Latest Models</a></li>
+			<li><a href="exploremore.html">Explore More</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+			
+			
+			
+            
+        </ul>    	
+    </div>
+    
+    <div id="mobistore_content">
+
+		<div id="mobistore_top">
+        
+	        <h1 style="color:#cccc33"font-size:18px ><center>Welcome to MobiStore! </center><br><br></h1>
+	<p class = "small" > Go through a range of handsets and buy your dream phone  at jaw dropping rate!<br> </p>
+	
+    	<center> <marquee behavior="alternate" width="80%"><p class="big" <b>* Massive Selection   *    Best Prices   *   Free Shipping   *   Easy Returns   * <b></marquee>   </center>
+
+	 
+<br /><br />
+
+<script language="JavaScript">
+
+var i = 0;
+var path = new Array();
+
+ 
+// LIST OF IMAGES
+path[0] = "1.jpg";
+path[1] = "2.jpg";
+path[2] = "3.jpg";
+path[3] = "4.jpg";
+
+function swapImage()
+{
+   document.slide.src = path[i];
+   if(i < path.length - 1) i++; else i = 0;
+   setTimeout("swapImage()",3000);
+}
+window.onload=swapImage;
+
+</script>
+
+
+<center><img height="450" name="slide"  width="870" /></center><br><br><br>
+
+        </div>
+        
+        <div id="mobistore_bottom">
+        
+        	<div class="section">
+               	<div class="subtitle">Special Thanks</div>    
+				<a href="#">SpeedPost</a><br />
+                    <a href="#">PhoneCare</a><br />
+                    <a href="#">GadgetsGuru</a><br />
+                                </div>
+            <div class="middle" align="justify">
+               	<div class="subtitle">News</div>    
+                <div class="publish_date">Date: 21-10-2014</div>
+				Moto 360 launched! Read about its specs, features and....<br />  
+				<a href="https://moto360.motorola.com">Read More</a></div> 
+            <div class="middlerightborder"></div>
+            <div class="section" align="justify">
+               	<div class="subtitle">Quick Contact</div>    
+		    Tel: 022-27461235<br />
+Fax: 001-001-0011<br />
+Email: mobistore@gmail.com<br />
+
+            </div> 
+
+        </div>
+	</div>
+    
+   	<div id="mobistore_footer">
+		<a href="index.html">Home</a> | <a href="aboutus.html">About Us</a> |  <a href="contactus.html">Contact Us</a><br />
+        Copyright  2007 <a href="home.html">MobiStore</a></div>
+</div>
+</div>
+
+<div align=center><font color=#cccc44>Thank you! Visit Again!</div></font></body>
+</html>   
